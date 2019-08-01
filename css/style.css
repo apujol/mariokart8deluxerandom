@@ -117,5 +117,9 @@ line-height: 10em;
     .footer {
         position: relative;
     }
+    
+    .colonne {
+        margin-top: 0px;
+    }
 
 }
