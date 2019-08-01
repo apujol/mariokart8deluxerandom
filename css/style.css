@@ -1,0 +1,121 @@
+
+body { 
+    background-image: url(../images/background3.jpg);
+    background-position-y: -64%;
+}
+
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.divNumero {
+    border-right: 5px solid #383d41;
+}
+
+.imageNumero {
+width: 50px;
+}
+
+.ligne {
+height: 10em;
+line-height: 10em;
+}
+
+.jumbotronAccueil {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: .3rem;
+}
+
+.jumbotronResultat {
+    padding: 2px;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.rowResultat {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.colonne {
+    margin-top: 50px;
+}
+
+.section1 {
+    background-color: rgba(255, 204, 7, 0.70);
+}
+
+.section2 {
+    background-color: rgba(0, 123, 255, 0.70);
+}
+
+.section3 {
+    background-color: rgba(162, 2, 2, 0.70);
+}
+
+.section4 {
+    background-color: rgba(40, 167, 69, 0.70);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+    font-size: 3.5rem;
+}
+}
+
+
+
+@media (max-width: 768px) {
+    body { 
+        background-image: url(../images/backgroundmobile.jpg);
+        background-position-y: initial;
+        background-size: contain;
+    }
+
+    .ligne {
+        height: auto; 
+        line-height: normal;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: inherit;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .imageNumero {
+        width: 30%;
+    }
+
+    .imageResultat {
+        width: 50%;
+        margin: 5px;
+    }
+
+    .divNumero {
+        border-right:none;
+    }
+
+    .footer {
+        position: relative;
+    }
+
+}

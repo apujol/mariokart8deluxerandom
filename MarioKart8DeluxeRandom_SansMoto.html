@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="Un passionné de Mario Kart - malikoko">
+<title>Mario Kart 8 Deluxe Random</title>
+<link rel="icon" type="image/png" href="images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Custom styles for this template -->
+<link href="css/sticky-footer-navbar.css" rel="stylesheet">
+<script src="js/application.js"></script>
+</head>
+<body class="d-flex flex-column h-100">
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#" onclick="document.location.reload(false)">Mario Kart 8 Deluxe Random</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="MarioKart8DeluxeRandom.html" onclick="document.location.reload(false)">Normal </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="MarioKart8DeluxeRandom_SansMoto.html" onclick="document.location.reload(false)">Sans Moto <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="MarioKart8DeluxeRandom_SansKart.html" onclick="document.location.reload(false)">Sans Kart </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+
+    <!-- Begin page content -->
+    <main role="main" class="flex-shrink-0">  
+        <section class="jumbotronAccueil text-center">
+                <div class="container">
+                        <h1 class="mt-5">Mario Kart 8 Deluxe Random</h1>
+                        <p class="text-muted">Configuration (Personnage, Véhicule, Roue, Voile) générée aléatoirement pour 4 joueurs.</p>
+                    <p>
+                    <a href="#" class="btn btn-primary my-2" onclick="document.location.reload(false)">Regénérer une configuration</a>
+                    </p>
+                </div>
+        </section>
+        <div class="ligne rowResultat">
+            <div class="colonne col-lg-6">
+                <section class="jumbotronResultat text-center section1">
+                    <div class="ligne row">
+                        <div class="divNumero col-lg-2">
+                            <img src="images/Numero/1.png" alt="Joueur 1" class="imageNumero">
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomPersonnage()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVehiculeSansMoto()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomRoue()</script>
+                        </div>
+                        <div class="col-lg-2">
+                                <script type="text/javascript">getRandomVoile()</script>
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="jumbotronResultat text-center section3">
+                    <div class="ligne row">
+                        <div class="divNumero col-lg-2">
+                            <img src="images/Numero/2.png" alt="Joueur 2" class="imageNumero">
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomPersonnage()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVehiculeSansMoto()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomRoue()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVoile()</script>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="colonne col-lg-6">
+                <section class="jumbotronResultat text-center section2">
+                    <div class="ligne row">
+                        <div class="divNumero col-lg-2">
+                            <img src="images/Numero/3.png" alt="Joueur 3" class="imageNumero">
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomPersonnage()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVehiculeSansMoto()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomRoue()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVoile()</script>
+                        </div>
+                    </div>
+                </section>
+                <section class="jumbotronResultat text-center section4">
+                    <div class="ligne row">
+                        <div class="divNumero col-lg-2">
+                            <img src="images/Numero/4.png" alt="Joueur 4" class="imageNumero">
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomPersonnage()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVehiculeSansMoto()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomRoue()</script>
+                        </div>
+                        <div class="col-lg-2">
+                            <script type="text/javascript">getRandomVoile()</script>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div> 
+    </main>
+      
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+          <span class="text-muted">&copy; 2019 MaliWebKoko - Développé par malikoko avec amour, passion et gentillesse &hearts;&hearts;&hearts;</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
